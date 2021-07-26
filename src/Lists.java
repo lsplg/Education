@@ -1,12 +1,12 @@
 public class Lists {
 
-    public static long calculateSum(ArrayList list) {
+    public static long calculateSum(List list) {
         long sum = 0;
         for (int i = 0; i < list.size(); i++) sum += list.get(i);
         return sum;
     }
 
-    public static void sort(ArrayList list) {
+    public static void sort(List list) {
         for (int i = 0; i < list.size(); i++) {
             int maxValue = list.get(0);
             int indexOfMaxValue = 0;
